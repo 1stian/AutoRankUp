@@ -1,0 +1,18 @@
+name: AutoRankUp
+version: ${project.version}
+main: no.ohnee.autorankup.AutoRankUp
+api-version: 1.16
+authors: [ 1stian ]
+depend: [PlaceholderAPI, Plan]
+description: Auto ranks up players, based on playtime from Plan
+commands:
+  timecheck:
+    description: Gives you total, active and afk time of a player
+    usage: /timecheck <name>
+    permission-message: You do not have access to /timecheck
+    permission: autorankup.check
+  autorankup:
+    description: Admin command, shows version and sub command for relaod config.
+    usage: /autorank | /autorank reload
+    permission-message: You do not have access to /autorankup
+    permission: autorankup.admin
