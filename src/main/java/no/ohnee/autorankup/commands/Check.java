@@ -8,13 +8,22 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.util.Objects;
+
 public class Check implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("timecheck")){
             if (args.length < 1){
-                sender.sendMessage("You must give me a name to check... /timecheck <name>");
+                if (sender instanceof Player){
+                    Player player = ((Player) sender).getPlayer();
+                    if (player != null){
+                        sender.sendMessage(checkPlayer(player));
+                    }
+                }
+                sender.sendMessage("Check someone else? /timecheck <name>");
+                return true;
             }else{
                 Player target = Bukkit.getPlayer(args[0]);
                 if (target == null){
