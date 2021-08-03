@@ -19,7 +19,7 @@ a command in console to rank players up.
 ____
 ### Setup (You've done this a million times probably)
 ***Dependencies***
-- [Plan](https://www.spigotmc.org/resources/plan-player-analytics.32536/), [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+- [Plan](https://www.spigotmc.org/resources/plan-player-analytics.32536/), [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) (You must install this as well: [LuckPerms Extension](https://github.com/LuckPerms/placeholders/blob/master/README.md) for PlaceholderAPI, this basically adds the placeholders for luckperms.)
 - Vault (Optional)
 
 **Installation**
