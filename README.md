@@ -1,6 +1,5 @@
 # AutoRankUp
 [![CircleCI](https://circleci.com/gh/1stian/AutoRankUp/tree/master.svg?style=svg)](https://circleci.com/gh/1stian/AutoRankUp/tree/master)
-[![CodeFactor](https://www.codefactor.io/repository/github/1stian/autorankup/badge)](https://www.codefactor.io/repository/github/1stian/autorankup)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=1stian_autorankup&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=1stian_autorankup)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=1stian_autorankup&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=1stian_autorankup)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=1stian_autorankup&metric=ncloc)](https://sonarcloud.io/dashboard?id=1stian_autorankup)
